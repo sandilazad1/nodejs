@@ -7,6 +7,7 @@ app.use((req,res,next)=>{
 })
 app.use((req,res,next)=>{
     console.log("hello am response 2");
+    res.send('<h1>Hello am sandil azad</h1>')
 })
 const server = http.createServer(app);
 server.listen(3000);

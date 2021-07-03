@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon express.js"
+    "start": "nodemon expresspath.js"
+    
   },
   "repository": {
     "type": "git",
